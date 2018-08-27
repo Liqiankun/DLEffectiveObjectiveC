@@ -31,7 +31,8 @@
                    @"DeallocVC",
                    @"TryCatchVC",
                    @"AutoreleaseVC",
-                   @"BlockVC"
+                   @"BlockVC",
+                   @"LockVC"
                    ];
 
 }
@@ -54,6 +55,7 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
     Class VCClass = NSClassFromString(_dataArray[indexPath.row]);
     UIViewController *viewController = [[VCClass alloc] init];
     [self.navigationController pushViewController:viewController animated:YES];

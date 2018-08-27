@@ -27,6 +27,7 @@
 		6321B87621323EB90031215A /* TryCatchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B87521323EB90031215A /* TryCatchVC.m */; };
 		6321B879213246C70031215A /* AutoreleaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B878213246C70031215A /* AutoreleaseVC.m */; };
 		6321B87C213295630031215A /* BlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B87B213295630031215A /* BlockVC.m */; };
+		6321B87F213371470031215A /* LockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B87E213371470031215A /* LockVC.m */; };
 		637DAD3C212EDFA500F08200 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DAD3B212EDFA500F08200 /* AppDelegate.m */; };
 		637DAD3F212EDFA500F08200 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DAD3E212EDFA500F08200 /* ViewController.m */; };
 		637DAD42212EDFA500F08200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637DAD40212EDFA500F08200 /* Main.storyboard */; };
@@ -78,6 +79,8 @@
 		6321B878213246C70031215A /* AutoreleaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoreleaseVC.m; sourceTree = "<group>"; };
 		6321B87A213295630031215A /* BlockVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockVC.h; sourceTree = "<group>"; };
 		6321B87B213295630031215A /* BlockVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockVC.m; sourceTree = "<group>"; };
+		6321B87D213371470031215A /* LockVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockVC.h; sourceTree = "<group>"; };
+		6321B87E213371470031215A /* LockVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockVC.m; sourceTree = "<group>"; };
 		637DAD37212EDFA500F08200 /* DLEffectiveObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLEffectiveObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		637DAD3A212EDFA500F08200 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		637DAD3B212EDFA500F08200 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 				6321B878213246C70031215A /* AutoreleaseVC.m */,
 				6321B87A213295630031215A /* BlockVC.h */,
 				6321B87B213295630031215A /* BlockVC.m */,
+				6321B87D213371470031215A /* LockVC.h */,
+				6321B87E213371470031215A /* LockVC.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 				6321B86A213148D70031215A /* Person+Work.m in Sources */,
 				637DAD3C212EDFA500F08200 /* AppDelegate.m in Sources */,
 				6321B855213124B20031215A /* PrivateMethodVC.m in Sources */,
+				6321B87F213371470031215A /* LockVC.m in Sources */,
 				6321B87021322C7C0031215A /* DeallocVC.m in Sources */,
 				6321B84F213100FF0031215A /* Square.m in Sources */,
 				6321B8422130F0420031215A /* MethodSwizzlingVC.m in Sources */,

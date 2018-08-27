@@ -16,6 +16,4 @@
     return lowerString;
 }
 
-
-
 @end
