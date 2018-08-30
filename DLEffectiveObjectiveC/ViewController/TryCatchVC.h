@@ -6,8 +6,8 @@
 //  Copyright © 2018年 David. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface TryCatchVC : UIViewController
+@interface TryCatchVC : BaseViewController
 
 @end

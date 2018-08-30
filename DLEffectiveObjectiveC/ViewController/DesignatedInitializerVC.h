@@ -6,8 +6,8 @@
 //  Copyright © 2018年 David. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface DesignatedInitializerVC : UIViewController
+@interface DesignatedInitializerVC : BaseViewController
 
 @end

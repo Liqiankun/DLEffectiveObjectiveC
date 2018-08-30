@@ -49,6 +49,7 @@
 //    dispatch_group_wait(group, DISPATCH_TIME_FOREVER);
 //    NSLog(@"dispatch_group_async finished");
     
+    
     dispatch_apply(10, queue, ^(size_t i) {
         NSLog(@"dispatch_apply");
     });

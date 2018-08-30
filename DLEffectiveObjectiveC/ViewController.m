@@ -7,10 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "BaseViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
-@property(nonatomic,strong) NSArray *dataArray;
+@property(nonatomic,strong) NSArray <NSString *> *dataArray;
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end
@@ -58,7 +59,8 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     Class VCClass = NSClassFromString(_dataArray[indexPath.row]);
-    UIViewController *viewController = [[VCClass alloc] init];
+    BaseViewController *viewController = [[VCClass alloc] init];
+    viewController.nameTitle = _dataArray[indexPath.row];
     [self.navigationController pushViewController:viewController animated:YES];
 }
 

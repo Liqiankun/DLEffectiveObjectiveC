@@ -6,9 +6,9 @@
 //  Copyright © 2018年 David. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface LockVC : UIViewController
+@interface LockVC : BaseViewController
 
 @property (nonatomic, copy) NSString *string;
 @property (nonatomic, copy) NSString *lock_string;

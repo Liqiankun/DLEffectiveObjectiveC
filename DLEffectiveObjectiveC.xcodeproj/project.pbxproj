@@ -37,6 +37,7 @@
 		637DAD57212EE06500F08200 /* AutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DAD56212EE06500F08200 /* AutoDictionary.m */; };
 		637DAD5A212EE7C800F08200 /* MessageForwardingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DAD59212EE7C800F08200 /* MessageForwardingVC.m */; };
 		63A055F22136D9FD0072B05B /* GCDGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A055F12136D9FD0072B05B /* GCDGroupVC.m */; };
+		63B03200213784570098BC3B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B031FF213784570098BC3B /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,8 @@
 		637DAD59212EE7C800F08200 /* MessageForwardingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageForwardingVC.m; sourceTree = "<group>"; };
 		63A055F02136D9FD0072B05B /* GCDGroupVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDGroupVC.h; sourceTree = "<group>"; };
 		63A055F12136D9FD0072B05B /* GCDGroupVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDGroupVC.m; sourceTree = "<group>"; };
+		63B031FE213784570098BC3B /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		63B031FF213784570098BC3B /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,8 @@
 		637DAD53212EE01F00F08200 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				63B031FE213784570098BC3B /* BaseViewController.h */,
+				63B031FF213784570098BC3B /* BaseViewController.m */,
 				637DAD58212EE7C800F08200 /* MessageForwardingVC.h */,
 				637DAD59212EE7C800F08200 /* MessageForwardingVC.m */,
 				6321B8402130F0420031215A /* MethodSwizzlingVC.h */,
@@ -290,6 +295,7 @@
 				6321B8492130FA7F0031215A /* DesignatedInitializerVC.m in Sources */,
 				6321B84C2130FADB0031215A /* Rectangle.m in Sources */,
 				6321B85B21313CE90031215A /* DelegateVC.m in Sources */,
+				63B03200213784570098BC3B /* BaseViewController.m in Sources */,
 				6321B879213246C70031215A /* AutoreleaseVC.m in Sources */,
 				6321B86D213149160031215A /* Person+Play.m in Sources */,
 				6321B87321323D2F0031215A /* TryCatch.m in Sources */,
