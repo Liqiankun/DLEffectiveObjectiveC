@@ -32,7 +32,8 @@
                    @"TryCatchVC",
                    @"AutoreleaseVC",
                    @"BlockVC",
-                   @"LockVC"
+                   @"LockVC",
+                   @"GCDGroupVC"
                    ];
 
 }

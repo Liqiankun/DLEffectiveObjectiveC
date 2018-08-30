@@ -36,6 +36,7 @@
 		637DAD4A212EDFA700F08200 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DAD49212EDFA700F08200 /* main.m */; };
 		637DAD57212EE06500F08200 /* AutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DAD56212EE06500F08200 /* AutoDictionary.m */; };
 		637DAD5A212EE7C800F08200 /* MessageForwardingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DAD59212EE7C800F08200 /* MessageForwardingVC.m */; };
+		63A055F22136D9FD0072B05B /* GCDGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A055F12136D9FD0072B05B /* GCDGroupVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,8 @@
 		637DAD56212EE06500F08200 /* AutoDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoDictionary.m; sourceTree = "<group>"; };
 		637DAD58212EE7C800F08200 /* MessageForwardingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageForwardingVC.h; sourceTree = "<group>"; };
 		637DAD59212EE7C800F08200 /* MessageForwardingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageForwardingVC.m; sourceTree = "<group>"; };
+		63A055F02136D9FD0072B05B /* GCDGroupVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDGroupVC.h; sourceTree = "<group>"; };
+		63A055F12136D9FD0072B05B /* GCDGroupVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDGroupVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +188,8 @@
 				6321B87B213295630031215A /* BlockVC.m */,
 				6321B87D213371470031215A /* LockVC.h */,
 				6321B87E213371470031215A /* LockVC.m */,
+				63A055F02136D9FD0072B05B /* GCDGroupVC.h */,
+				63A055F12136D9FD0072B05B /* GCDGroupVC.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 				637DAD3F212EDFA500F08200 /* ViewController.m in Sources */,
 				637DAD4A212EDFA700F08200 /* main.m in Sources */,
 				6321B86A213148D70031215A /* Person+Work.m in Sources */,
+				63A055F22136D9FD0072B05B /* GCDGroupVC.m in Sources */,
 				637DAD3C212EDFA500F08200 /* AppDelegate.m in Sources */,
 				6321B855213124B20031215A /* PrivateMethodVC.m in Sources */,
 				6321B87F213371470031215A /* LockVC.m in Sources */,

@@ -10,4 +10,8 @@
 
 @interface LockVC : UIViewController
 
+@property (nonatomic, copy) NSString *string;
+@property (nonatomic, copy) NSString *lock_string;
+@property (nonatomic, copy) NSString *gcd_string;
+
 @end

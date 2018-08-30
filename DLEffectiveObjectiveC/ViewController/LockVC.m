@@ -8,9 +8,13 @@
 
 #import "LockVC.h"
 
-@interface LockVC () {
+@interface LockVC ()
+{
     NSLock *_lock;
     dispatch_queue_t _syncQueue;
+    NSString *_string;
+    NSString *_lock_string;
+    NSString *_gcd_string;
 }
 
 @end
@@ -27,39 +31,70 @@
     
     dispatch_queue_t curQueue = dispatch_queue_create("com.davidlee.curqueue", DISPATCH_QUEUE_CONCURRENT);
     
-    dispatch_async(curQueue, ^{
-        [self synchronizedMethod];
+    dispatch_barrier_async(curQueue, ^{
+        NSLog(@"dispatch_barrier_async");
     });
     
     dispatch_async(curQueue, ^{
-        [self synchronizedMethod];
+        self.gcd_string = @"gcd_string";
+        NSLog(@"self.gcd_string - %@", self.gcd_string);
     });
     
     dispatch_async(curQueue, ^{
-        [self synchronizedMethod];
+        self.gcd_string = @"gcd_string";
+        NSLog(@"self.gcd_string - %@", self.gcd_string);
+    });
+    
+    dispatch_async(curQueue, ^{
+        self.gcd_string = @"gcd_string";
+        NSLog(@"self.gcd_string - %@", self.gcd_string);
+    });
+    
+    dispatch_async(curQueue, ^{
+        self.gcd_string = @"gcd_string";
+        NSLog(@"self.gcd_string - %@", self.gcd_string);
     });
     
 }
 
--(void)synchronizedMethod {
+-(NSString *)string {
     @synchronized(self){
-        NSLog(@"synchronizedMethod");
+        return _string;
     }
 }
 
+-(void)setString:(NSString *)string {
+    @synchronized(self){
+        _string = string;
+    }
+}
 
--(void)lock_synchronizedMethod {
+-(NSString *)lock_string {
+    return _lock_string;
+}
+
+-(void)setLock_string:(NSString *)lock_string {
     [_lock lock];
-    NSLog(@"lock_synchronizedMethod");
+    _lock_string = lock_string;
     [_lock unlock];
 }
 
-
--(void)gcd_synchronizedMethod {
+-(NSString *)gcd_string {
+    __block NSString *blockString;
     dispatch_sync(_syncQueue, ^{
-        NSLog(@"gcd_synchronizedMethod");
+        blockString = self->_gcd_string;
+    });
+    return blockString;
+}
+
+-(void)setGcd_string:(NSString *)gcd_string {
+    dispatch_barrier_async(_syncQueue, ^{
+        self->_gcd_string = gcd_string;
     });
 }
 
+-(void)dealloc {
+    NSLog(@"LockVC dealloc");
+}
 
 @end
