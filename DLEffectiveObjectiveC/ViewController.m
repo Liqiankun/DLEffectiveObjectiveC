@@ -34,7 +34,11 @@
                    @"AutoreleaseVC",
                    @"BlockVC",
                    @"LockVC",
-                   @"GCDGroupVC"
+                   @"GCDGroupVC",
+                   @"GCDOnceVC",
+                   @"EnumerationVC",
+                   @"BridgeVC",
+                   @"TimerVC"
                    ];
 
 }

@@ -17,8 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = _nameTitle;
-    [self.navigationItem.backBarButtonItem setTitle:@"Back"];
 }
 
 @end

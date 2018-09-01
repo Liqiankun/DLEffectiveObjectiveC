@@ -36,7 +36,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="EffectiveObjectiveC" id="ORx-xN-mr6"/>
+                    <navigationItem key="navigationItem" title="EffectiveObjectiveC" id="ORx-xN-mr6">
+                        <barButtonItem key="backBarButtonItem" title=" " id="Na8-c2-bkD"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="9J3-6A-5sw" id="sXQ-G2-X1i"/>
                     </connections>

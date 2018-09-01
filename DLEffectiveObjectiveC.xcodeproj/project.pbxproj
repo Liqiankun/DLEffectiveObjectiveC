@@ -28,6 +28,9 @@
 		6321B879213246C70031215A /* AutoreleaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B878213246C70031215A /* AutoreleaseVC.m */; };
 		6321B87C213295630031215A /* BlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B87B213295630031215A /* BlockVC.m */; };
 		6321B87F213371470031215A /* LockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B87E213371470031215A /* LockVC.m */; };
+		6334C359213A761E009FB927 /* CacheVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6334C358213A761E009FB927 /* CacheVC.m */; };
+		6334C35C213A8123009FB927 /* TimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6334C35B213A8123009FB927 /* TimerVC.m */; };
+		6334C35F213A8294009FB927 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 6334C35E213A8294009FB927 /* NSTimer+Block.m */; };
 		637DAD3C212EDFA500F08200 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DAD3B212EDFA500F08200 /* AppDelegate.m */; };
 		637DAD3F212EDFA500F08200 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DAD3E212EDFA500F08200 /* ViewController.m */; };
 		637DAD42212EDFA500F08200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637DAD40212EDFA500F08200 /* Main.storyboard */; };
@@ -38,6 +41,10 @@
 		637DAD5A212EE7C800F08200 /* MessageForwardingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DAD59212EE7C800F08200 /* MessageForwardingVC.m */; };
 		63A055F22136D9FD0072B05B /* GCDGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A055F12136D9FD0072B05B /* GCDGroupVC.m */; };
 		63B03200213784570098BC3B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B031FF213784570098BC3B /* BaseViewController.m */; };
+		63C71C76213A176700288FC7 /* GCDOnceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C71C75213A176700288FC7 /* GCDOnceVC.m */; };
+		63C71C79213A178800288FC7 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C71C78213A178800288FC7 /* Singleton.m */; };
+		63C71C7C213A625200288FC7 /* EnumerationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C71C7B213A625200288FC7 /* EnumerationVC.m */; };
+		63C71C82213A6C4700288FC7 /* BridgeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C71C81213A6C4700288FC7 /* BridgeVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +90,12 @@
 		6321B87B213295630031215A /* BlockVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockVC.m; sourceTree = "<group>"; };
 		6321B87D213371470031215A /* LockVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockVC.h; sourceTree = "<group>"; };
 		6321B87E213371470031215A /* LockVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockVC.m; sourceTree = "<group>"; };
+		6334C357213A761E009FB927 /* CacheVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheVC.h; sourceTree = "<group>"; };
+		6334C358213A761E009FB927 /* CacheVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheVC.m; sourceTree = "<group>"; };
+		6334C35A213A8123009FB927 /* TimerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerVC.h; sourceTree = "<group>"; };
+		6334C35B213A8123009FB927 /* TimerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerVC.m; sourceTree = "<group>"; };
+		6334C35D213A8294009FB927 /* NSTimer+Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Block.h"; sourceTree = "<group>"; };
+		6334C35E213A8294009FB927 /* NSTimer+Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Block.m"; sourceTree = "<group>"; };
 		637DAD37212EDFA500F08200 /* DLEffectiveObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLEffectiveObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		637DAD3A212EDFA500F08200 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		637DAD3B212EDFA500F08200 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +114,14 @@
 		63A055F12136D9FD0072B05B /* GCDGroupVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDGroupVC.m; sourceTree = "<group>"; };
 		63B031FE213784570098BC3B /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		63B031FF213784570098BC3B /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		63C71C74213A176700288FC7 /* GCDOnceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDOnceVC.h; sourceTree = "<group>"; };
+		63C71C75213A176700288FC7 /* GCDOnceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDOnceVC.m; sourceTree = "<group>"; };
+		63C71C77213A178800288FC7 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		63C71C78213A178800288FC7 /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		63C71C7A213A625200288FC7 /* EnumerationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumerationVC.h; sourceTree = "<group>"; };
+		63C71C7B213A625200288FC7 /* EnumerationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumerationVC.m; sourceTree = "<group>"; };
+		63C71C80213A6C4600288FC7 /* BridgeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeVC.h; sourceTree = "<group>"; };
+		63C71C81213A6C4700288FC7 /* BridgeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +146,8 @@
 				6321B869213148D70031215A /* Person+Work.m */,
 				6321B86B213149160031215A /* Person+Play.h */,
 				6321B86C213149160031215A /* Person+Play.m */,
+				6334C35D213A8294009FB927 /* NSTimer+Block.h */,
+				6334C35E213A8294009FB927 /* NSTimer+Block.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -195,6 +218,16 @@
 				6321B87E213371470031215A /* LockVC.m */,
 				63A055F02136D9FD0072B05B /* GCDGroupVC.h */,
 				63A055F12136D9FD0072B05B /* GCDGroupVC.m */,
+				63C71C74213A176700288FC7 /* GCDOnceVC.h */,
+				63C71C75213A176700288FC7 /* GCDOnceVC.m */,
+				63C71C7A213A625200288FC7 /* EnumerationVC.h */,
+				63C71C7B213A625200288FC7 /* EnumerationVC.m */,
+				63C71C80213A6C4600288FC7 /* BridgeVC.h */,
+				63C71C81213A6C4700288FC7 /* BridgeVC.m */,
+				6334C357213A761E009FB927 /* CacheVC.h */,
+				6334C358213A761E009FB927 /* CacheVC.m */,
+				6334C35A213A8123009FB927 /* TimerVC.h */,
+				6334C35B213A8123009FB927 /* TimerVC.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -216,6 +249,8 @@
 				6321B863213147DE0031215A /* Person.m */,
 				6321B87121323D2F0031215A /* TryCatch.h */,
 				6321B87221323D2F0031215A /* TryCatch.m */,
+				63C71C77213A178800288FC7 /* Singleton.h */,
+				63C71C78213A178800288FC7 /* Singleton.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -291,17 +326,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				6321B87621323EB90031215A /* TryCatchVC.m in Sources */,
+				63C71C76213A176700288FC7 /* GCDOnceVC.m in Sources */,
 				6321B8462130F2300031215A /* NSString+MyAdditions.m in Sources */,
 				6321B8492130FA7F0031215A /* DesignatedInitializerVC.m in Sources */,
 				6321B84C2130FADB0031215A /* Rectangle.m in Sources */,
 				6321B85B21313CE90031215A /* DelegateVC.m in Sources */,
 				63B03200213784570098BC3B /* BaseViewController.m in Sources */,
 				6321B879213246C70031215A /* AutoreleaseVC.m in Sources */,
+				63C71C7C213A625200288FC7 /* EnumerationVC.m in Sources */,
 				6321B86D213149160031215A /* Person+Play.m in Sources */,
+				63C71C79213A178800288FC7 /* Singleton.m in Sources */,
+				63C71C82213A6C4700288FC7 /* BridgeVC.m in Sources */,
 				6321B87321323D2F0031215A /* TryCatch.m in Sources */,
 				6321B864213147DE0031215A /* Person.m in Sources */,
 				637DAD57212EE06500F08200 /* AutoDictionary.m in Sources */,
 				6321B87C213295630031215A /* BlockVC.m in Sources */,
+				6334C35F213A8294009FB927 /* NSTimer+Block.m in Sources */,
 				6321B867213148950031215A /* Person+Friendship.m in Sources */,
 				6321B861213147AA0031215A /* PersonVC.m in Sources */,
 				6321B85E21313D360031215A /* NetworkFetcher.m in Sources */,
@@ -309,6 +349,7 @@
 				637DAD5A212EE7C800F08200 /* MessageForwardingVC.m in Sources */,
 				637DAD3F212EDFA500F08200 /* ViewController.m in Sources */,
 				637DAD4A212EDFA700F08200 /* main.m in Sources */,
+				6334C359213A761E009FB927 /* CacheVC.m in Sources */,
 				6321B86A213148D70031215A /* Person+Work.m in Sources */,
 				63A055F22136D9FD0072B05B /* GCDGroupVC.m in Sources */,
 				637DAD3C212EDFA500F08200 /* AppDelegate.m in Sources */,
@@ -317,6 +358,7 @@
 				6321B87021322C7C0031215A /* DeallocVC.m in Sources */,
 				6321B84F213100FF0031215A /* Square.m in Sources */,
 				6321B8422130F0420031215A /* MethodSwizzlingVC.m in Sources */,
+				6334C35C213A8123009FB927 /* TimerVC.m in Sources */,
 				6321B858213124E60031215A /* PrivateMethod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
